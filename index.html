@@ -7,11 +7,11 @@
     <title>Tic-Tac-Toe Game</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body class="body">
     <div class="main">
-      <h1>Play Tic-Tac-Toe Game</h1>
+      <h1 class="text-center">Play Tic-Tac-Toe Game</h1>
 
-      <h3>Current User: <input type="text" id="currentUser" readonly disabled="true"/></h3>
+      <h3 class="text-center">Current User: <input type="text" id="currentUser" readonly disabled="true"/></h3>
       <div class="block" id="boxes">
         <div>
           <input type="text" id="block_0" readonly  onclick="this.disabled = true"/>
@@ -29,8 +29,8 @@
           <input type="text" id="block_8" readonly onclick="this.disabled = true"/>
         </div>
       </div>
-      <div>
-        <button class="alignCenter" onclick="startGame(); this.disabled = true">Start Game</button>
+      <div class="text-center">
+        <button class="startGameBtn" onclick="startGame(); this.disabled = true">Start Game</button>
       </div>
     </div>
 

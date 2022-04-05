@@ -1,15 +1,21 @@
+.body{
+    background-color: lightpink;
+}
 .main{
-    background: yellow;
+    margin-top: 50px;
+    background: lightblue;
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
+    width: 600px;
+    height: 300px;
 }
 
-.alignCenter{
+.text-center{
     text-align: center;
 }
 
-.block {
-   
+.startGameBtn {
+   margin-top: 10px;
 }
