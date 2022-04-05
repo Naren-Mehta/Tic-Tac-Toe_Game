@@ -1,0 +1,15 @@
+.main{
+    background: yellow;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.block {
+   
+}
